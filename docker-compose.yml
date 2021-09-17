@@ -1,0 +1,9 @@
+version: '2'
+services:
+  spotted-codpiece:
+    image: phildwilson/spotted-codpiece
+    privileged: true
+    restart: never
+    network_mode: host
+    ports:
+      - "8080"
